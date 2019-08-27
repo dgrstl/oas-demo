@@ -12,5 +12,24 @@ paths:
       in: path
       required: true
       type: string
+    get:
+      summary: ''
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+        '201':
+          description: Created
+      description: get toys
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
 components:
   schemas: {}
