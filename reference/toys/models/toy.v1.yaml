@@ -1,0 +1,14 @@
+title: toy
+type: object
+description: a toy
+properties:
+  id:
+    type:
+      - string
+      - integer
+  name:
+    type: string
+  price:
+    type:
+      - string
+      - number
