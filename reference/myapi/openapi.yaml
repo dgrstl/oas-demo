@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: MyAPI
   version: '1.0'
-  description: My APIaaa
+  description: My APIaaaaaaaa
   contact:
     name: David Roberts
     email: dr@stoplight.io
